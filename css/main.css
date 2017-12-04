@@ -19,6 +19,7 @@ body {
 .banner {
   position: relative;
   max-height: 500px;
+  overflow: hidden;
 }
 
 .banner-content {
@@ -27,15 +28,18 @@ body {
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
+  max-width: 50em;
+  width: 100%;
+
 }
 
 h2 {
-  max-width: 50em;
   font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
+  color: white;
+  margin-bottom: .25em;
 }
 
 p {
-  max-width: 50em;
   font-size: 2rem;
 }
