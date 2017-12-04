@@ -25,7 +25,7 @@ body {
 .banner-content {
   padding: 0 1rem;
   position: absolute;
-  bottom: 1rem;
+  bottom: .4rem;
   left: 50%;
   transform: translateX(-50%);
   max-width: 50em;
@@ -34,12 +34,14 @@ body {
 }
 
 h2 {
+  font-weight: bolder;
   font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
   color: white;
-  margin-bottom: .25em;
+  margin-bottom: -.2em;
 }
 
 p {
   font-size: 2rem;
+  font-style: italic;
 }
