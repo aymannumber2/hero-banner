@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
 }
 
 *, *::before, *::after {
@@ -24,6 +25,7 @@ body {
 
 .banner-content {
   padding: 0 1rem;
+  padding-left: 1.5em;
   position: absolute;
   bottom: .4rem;
   left: 50%;
@@ -34,11 +36,13 @@ body {
 }
 
 h2 {
-  font-weight: bolder;
   font-size: 4rem;
-  background-color: rgba(0, 0, 0, .5);
   color: white;
   margin-bottom: -.2em;
+}
+
+span {
+  background-color: rgba(0, 0, 0, .5);
 }
 
 p {
